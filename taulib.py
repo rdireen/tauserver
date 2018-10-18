@@ -14,7 +14,7 @@ import opc
 import time
 
 
-class TauServer:
+class TauLibs:
     def __init__(self):
 
         self.client = opc.Client('localhost:7890')
